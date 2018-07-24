@@ -38,5 +38,6 @@ public class ViewPDFActivity extends AppCompatActivity {
         .enableAntialiasing(true)
         .load();
 
+
     }
 }

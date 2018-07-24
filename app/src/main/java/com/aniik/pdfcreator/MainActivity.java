@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
     public void pdfApp(View view)
     {
 
+        //for disable uri for >24 sdk
         if(Build.VERSION.SDK_INT>=24){
             try{
                 Method m = StrictMode.class.getMethod("disableDeathOnFileUriExposure");
